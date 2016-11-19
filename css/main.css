@@ -1,0 +1,71 @@
+@font-face {
+    font-family: stark;
+    src: url(../stark/Stark.otf);
+}
+
+
+body {
+	background: url(https://images4.alphacoders.com/818/thumb-1920-81856.jpg) no-repeat center center fixed; 
+  	background-size: cover;
+}
+
+div h1 {
+	text-align: center;
+	color: #f9fffc;
+	font-family: stark, sans-serif;
+	font-size: 60px;
+}
+
+div #quiz {
+ 	font-size: 100px;
+	color: #e13436;
+	text-shadow: 3px 3px 5px #cea160;
+	opacity: 0.7
+}
+
+#questions {
+	margin: 0% 10%
+}
+
+#questions p {
+	color: #f9fffc;
+	margin-top: 3%;
+	font-family: 'Delius Unicase', cursive;
+}
+
+#questions input {
+	width: 30%;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	opacity: 0.7;
+
+}
+
+#submit {
+	margin: 3% 40%;
+	border: transparent;
+	border-radius: 4px;
+	opacity: 0.7;
+	background-color: #c30a0c;
+	color: #f4dd90;
+}
+
+.wrong {
+	color: red !important
+}
+
+
+.correct, .incorrect {
+	opacity: 0;
+}
+.yes {
+	opacity: 1;
+	color: #f9fffc;
+	text-shadow: 3px 3px 5px #cea160;
+}
+.no {
+	opacity: 1;
+	color: #cea160;
+	text-shadow: 3px 3px 5px #f9fffc;
+}
+
